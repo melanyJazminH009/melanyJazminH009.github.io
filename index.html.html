@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página Personal</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="mp.js"></script>
+</head>
+<body>
+  <header id="encabezado">
+    <h1>Melany Jazmin Herrera</h1>
+  </header>
+
+  <section id="experiencia">
+    <h2>Mi experiencia en este curso</h2>
+    <p class="texto-destacado">
+      Estoy aprendiendo sobre HTML, CSS, y cómo crear páginas web.
+    </p>
+  </section>
+
+  <section class="galeria">
+    <h2>Sobre mí</h2>
+    <p>Me gusta mucho la música de Taylor Swift y tuve la suerte de poder ir al The eras tour <3.</p>
+    <p>Tengo 2 gatos, Copito y Don Gato.</p>
+    <p>Hago patinaje urbano.</p>
+    <img 
+      src="https://upload.wikimedia.org/wikipedia/en/7/75/The_Eras_Tour_Poster_%28updated%29.png" 
+      alt="The Eras Tour" 
+      class="mi-imagen"
+    />
+   <audio id="musica" loop>
+  <source src="https://archive.org/download/taylor-swift-playlist-updated-WINTERBEAR98/Taylor%20Swift%20-%20Tim%20McGraw.mp3" type="audio/mpeg" />
+  
+</audio>
+<p> TOCA ACÁ </p>
+<button onclick="togglePlay()">Reproducir / Pausar música</button>
+
+<script>
+  const musica = document.getElementById('musica');
+  function togglePlay() {
+    if (musica.paused) {
+      musica.play();
+    } else {
+      musica.pause();
+    }
+  }
+</script>
+
+
+  </section>
+
+  <footer class="pie-pagina">
+    <p>Hasta la próxima :)</p>
+  </footer>
+</body>
+</html>

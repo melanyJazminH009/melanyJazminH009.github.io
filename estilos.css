@@ -1,0 +1,32 @@
+
+.texto-destacado {
+  font-weight: bold;
+  color: rgb(13, 13, 14);
+}
+
+.imagen-personal {
+  border-radius: 10px;
+  width: 300px;
+}
+
+.pie-pagina {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+
+#encabezado {
+  background-color: #d498ba;
+  padding: 20px;
+  text-align: center;
+}
+
+#experiencia {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f3f5f3;
+}
+body {
+  background-color: #a1c9ed;
+}
